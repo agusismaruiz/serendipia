@@ -1,0 +1,267 @@
+html{
+    background-image: url(../imagenes/fondohtml.jpg);
+    font-family: 'Koulen', cursive;
+    font-family: 'Libre Baskerville', serif;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/*--------------------------------------INDEX----------------------------------*/
+
+/*----------------------------------DIV PRINCIPAL------------------------------*/
+#grilla{
+    display: grid;
+    grid-template-areas: 
+    "header header nav"
+    "productos productos productos"
+    "servicios servicios publicidad"
+    "footer footer publicidad";
+    grid-template-rows: 300px 400px 400px 200px;
+    grid-template-columns: 50px 5fr 1fr ;
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+}
+/*--------------------------------FIN DIV PRINCIPAL------------------------------*/
+
+/*---------------------------------CLASES GENERALES------------------------------*/
+.border{
+    border: 2px solid #000;
+}
+.titulosH2{
+    text-align: center;
+    border: 1px solid #000;
+    background-color: #F5B7B1;
+}
+.imagenesIndex{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.listasIndex{
+    border: 1px solid #000;
+    background-color: #F5B7B1;
+    padding: 5px;
+    margin: 15px;
+    list-style-type: none;
+    text-align: center;
+}
+.linkIndex{
+    text-decoration: none;
+}
+/*----------------------------------FIN CLASES GENERALES-------------------------*/
+
+/*-------------------------------------HEADER------------------------------------*/
+#headerPrincipal{
+    grid-area: header;
+    background-image: url(../imagenes/pine-wood-texture.jpg);
+    text-align: center;
+}
+.titulo{
+    margin-top: 100px;
+    border: 2px solid #000;
+    background-color: #F5B7B1
+}
+/*----------------------------------FIN HEADER-----------------------------------*/
+
+/*-------------------------------SECTION PRODUCTOS-------------------------------*/
+section#productos{
+    grid-area: productos;
+    border: 2px solid #000;
+    background-image: url(../imagenes/pine-wood-texture.jpg);
+}
+
+/*------------------------------- FIN SECTION PRODUCTOS----------------------------*/
+
+/*-------------------------------SECTION SERVICIOS---------------------------------*/
+section#servicios{
+    grid-area: servicios;
+    background-image: url(../imagenes/pine-wood-texture.jpg);
+}
+
+/*------------------------------- FIN SECTION SERVICIOS----------------------------*/
+
+/*--------------------------------NAVEGACIÓN---------------------------------------*/
+#navegacion{
+    grid-area: nav;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-image: url(../imagenes/pine-wood-texture.jpg);
+}
+
+
+/*--------------------------------FIN NAVEGACIÓN-----------------------------------*/
+
+/*--------------------------------ASIDE--------------------------------------------*/
+#publicidades{
+    grid-area: publicidad;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(../imagenes/aside.jpg);
+}
+.botonAside{
+    background-color: beige;
+}
+/*--------------------------------FIN ASIDE----------------------------------------*/
+
+/*--------------------------------FOOTER-------------------------------------------*/
+footer{
+    grid-area: footer;
+    background-image: url(../imagenes/footer.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.divFooter{
+    display: flex;
+    justify-content: center;
+}
+/*--------------------------------FIN FOOTER---------------------------------------*/
+
+/*----------------------------------FIN INDEX--------------------------------------*/
+
+
+/*---------------------------------GALERIA-----------------------------------------*/
+
+#grilla2{
+    display: grid;
+    grid-template-areas: 
+    "header header nav";
+    grid-template-columns: 50px 5fr 1fr;
+    grid-template-rows: 300px;
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+}
+#headerGaleria{
+    grid-area: header;
+    background-image: url(../imagenes/pine-wood-texture.jpg);
+    text-align: center;
+       
+}
+
+#navGaleria{
+    grid-area: nav;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-image: url(../imagenes/pine-wood-texture.jpg);
+}
+.padreGaleria{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 15px;
+}
+.divGaleria{
+    position: relative;
+}
+.imgGaleria{
+    border: 2px solid #000;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.conjuntosGaleria{
+    border: 1px solid #000;
+    background-color: beige;
+    position: absolute;
+    bottom: 0;
+    color: #000;
+}
+.tituloGaleria{
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    background-color: #F5B7B1;
+    padding: 50px;
+    margin-top: 50px; 
+}
+/*------------------------------------------FIN GALERIA-----------------------------------------*/
+
+/*--------------------------------------NOSOTROS------------------------------------------------*/
+.padreNosotros{
+    display: grid;
+    justify-content: flex-start;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 30px;
+    height: 400px;
+    margin: 50px 50px;
+   
+}
+.hijos{
+    border: 1px solid #000;
+    background-color: beige; 
+    padding: 15px;  
+
+}
+.nosotrosH3{
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.parrafos{
+    margin-top: 20px;
+    
+}
+#artNosotros{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 400px;
+}
+.tituloNosotros{
+    text-align: center;
+    border: 1px solid black;
+    background-color: #F5B7B1;
+    padding: 30px;
+    margin: 0 100px;
+}
+.tituloNosotros2{
+    background-color: beige;
+    border: 1px solid #000;
+    padding: 40px;
+}
+/*-----------------------------------------FIN NOSOTROS---------------------------------------------*/
+
+/*-----------------------------------------CONTACTANOS----------------------------------------------*/
+
+.seccionContactos{
+    text-align: start;
+    border: 2px solid black;
+    background-color: beige;
+    margin: 100px;
+}
+#tituloContactos{
+    text-align: center;
+    
+}
+
+/*-----------------------------------------FIN CONTACTOS-------------------------------------------*/
+
+/*-----------------------------------------INICIAR SESION------------------------------------------*/
+.mainInicio{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 2px solid rgb(230, 8, 8);
+    background-color: beige;
+    margin: 100px;
+    
+    
+}
+.mainDiv{
+    border: 1px solid rgb(94, 29, 179);
+    margin: 150px;
+}
+.tituloInicio{
+    border: 2px ridge black;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    padding-left: 400px;
+}
+/*----------------------------------------FIN INICIAR SESION---------------------------------------*/
