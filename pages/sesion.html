@@ -6,103 +6,113 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IniciarSesion</title>
 <link rel="stylesheet" href="../style/style.css">
+<!--BOOTSTRAP-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 
 
 </head>
-<body>
-    <!--SECTION1-->
-    <section id="grilla2">
-        <header class="border" id="headerGaleria">
-            <h1 class="titulo">
-                Bienvenidos a Serendipia
-            </h1>
-        </header>
-
-        <nav class="border" id="navGaleria">
-            <div>
-                <ul>
-                    <li class="listasIndex"><a class="linkIndex" href="./nosotros.html">Nostros</a></li>
-                </ul>
-            </div>
-            <div>
-                <ul>
-                    <li class="listasIndex"><a class="linkIndex" href="./galeria.html">Galeria</a></li>
-                </ul>
-            </div>
-            <div>
-                <ul>
-                    <li class="listasIndex"><a class="linkIndex" href="./contactanos.html">Contactanos</a></li>
-                </ul>
-            </div>
-            <div>
-                <ul>
-                    <li class="listasIndex"><a class="linkIndex" href="./sesion.html">Iniciar Secion</a></li>
-                </ul>
-            </div>
-            <div>
-                <ul>
-                    <li class="listasIndex">
-                        <a class="linkIndex" href="../index.html">Volver al inicio</a>
-                    </li>
-                </ul>
-            </div>
+<body class="body">
+    <header id="encabezado" class="container-fluid">
+        <div class="row">
+          <div class="col-3">
+            <img class="img-thumbnail" src="../imagenes/Sseren.jpg" alt="logo">
+          </div>
+          <div class="col">
+            <h1 class="serenTitulo">Serendipia</h1>
+          </div>
+        </div>
+        <nav class="row">
+          <div class="col-4">
+            <h2 class="columna1">bienvenidos</h2>
+          </div>
+      
+          <div class="col">
+      
+            <button type="button" class="btn btn-outline-dark">
+              <a href="../pages/nosotros.html">Nosotros</a>
+            </button> 
+          </div>
+          <div class="col">
+      
+            <button type="button" class="btn btn-outline-dark">
+              <a href="../pages/galeria.html">Galeria</a>
+            </button>
+          </div>
+          <div class="col">
+      
+            <button type="button" class="btn btn-outline-dark">
+              <a href="../pages/contactanos.html">Contactanos</a>
+            </button>
+          </div>
+          <div class="col">
+      
+            <button type="button" class="btn btn-outline-dark">
+              <a href="../pages/sesion.html">Iniciar Sesion</a>
+            </button>
+          </div>
+          <div class="col">
+      
+            <button type="button" class="btn btn-outline-dark">
+              <a href="../index.html">Inicio</a>
+            </button>
+          </div>
         </nav>
-    </section>
-    <!--FIN SECTION1-->
-    
-    <!--MAIN-->
-
-    <main class="mainInicio">
-        <div class="mainDiv">
-            <h1 class="tituloInicio">Inicio de Sesion</h1>
-            <br>
-            <br>
-            <p>Usuario:</p>
-            <br>
-            <br>
-            <input type="text" id="usuario">
-            <br>
-            <br>
-            <p>Contraseña:</p>
-            <br>
-            <br>
-            <input type="password">
-            <br>
-            <br>
-                <input type="submit" value="iniciar">
-                <br>
-                <br>
-                <div>
-                        <a href="./registrarme.html">Registrarme</a>
-                    <br>
-                        <a href="../index.html">Volver al Inicio</a>
+      </header>
+<!--MAIN-->
+      <main class="container">
+        <div class="row">
+            <div class="col">
+                <div class="sesion">
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Usuario</label>
+                      </div>
+                      <div class="form-floating">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Contraseña</label>
+                      </div>
+                      <button type="button" class="btn btn-primary">Ingresar</button>
+                      <button type="button" class="btn btn-primary">Registrarme</button>
                 </div>
-                <hr>
-                <br>
+
+                </div>
+             
+
         </div>
 
-    </main>
-    <!--FIN MAIN-->
+      </main>
+      <!--FIN MAIN-->
+    
     
     <!--FOOTER-->
-    <footer class="border">
-        <div class="divFooter">
-            <img src="../imagenes/social-icons.svg" alt="redesIndex">
+    <footer class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <div class="divFooter">
+              <img src="../imagenes/social-icons.svg" alt="redesIndex">
+          </div>
+          <div >
+              <ul>
+                  <li class="listasIndex">
+                      <a class="linkIndex" href="https://www.instagram.com/serendipia.unica/">Instagram</a>
+                  </li>
+                  <li class="listasIndex">
+                      <a class="linkIndex" href="https://www.facebook.com/">Facebook</a>
+                  </li>
+                  <li class="listasIndex">
+                      <a class="linkIndex" href="https://twitter.com/?lang=es">Twiter</a>
+                  </li>
+              </ul>     
+          </div>
+          </div>
+      
         </div>
-        <div >
-            <ul>
-                <li class="listasIndex">
-                    <a class="linkIndex" href="https://www.instagram.com/serendipia.unica/">Instagram</a>
-                </li>
-                <li class="listasIndex">
-                    <a class="linkIndex" href="https://www.facebook.com/">Facebook</a>
-                </li>
-                <li class="listasIndex">
-                    <a class="linkIndex" href="https://twitter.com/?lang=es">Twiter</a>
-                </li>
-            </ul>     
-        </div>
-    </footer>
+      </footer>
     <!--FIN FOOTER-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 </body>
 </html>

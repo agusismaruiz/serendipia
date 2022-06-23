@@ -1,3 +1,101 @@
+.titulo{
+    text-align: center;
+}
+#encabezado{
+    background-image: url(../imagenes/pine-wood-texture.jpg);
+}
+.columna1{
+    margin-top: 10px;
+    border: 2px solid #000;
+    background-color: #F5B7B1 ;
+    text-align: center;
+    margin-right: 130px;
+}
+.serenTitulo{
+    border-bottom: 2px solid #000;
+    border-top: 2px solid #000;
+    background-color:#F5B7B1 ;
+    text-align: center;
+    margin-top: 80px;
+    padding: 25px;
+}
+#mainIndex{
+    margin-top: 15px;
+    border: 2px solid #000;
+    padding: 80px;
+    background-image: url(../imagenes/pine-wood-texture.jpg);
+}
+.color{
+    color: #000;
+    background-color: #f5b7b1a6;
+}
+.body{
+    background-image: url(../imagenes/fondohtml.jpg);
+}
+.imgServicios{
+    padding: 50px;
+}
+.container-fluid{
+    margin-top: 15px;
+}
+#servIndix{
+    border: 2px solid #000;
+    background-image: url(../imagenes/pine-wood-texture.jpg);
+}
+#asideIndex{
+    border: 2px solid #000;
+    background-image: url(../imagenes/pine-wood-texture.jpg);
+    margin-left: 10px;
+}
+#asidep{
+    margin-left: 50px;
+}
+.tituloAside{
+    margin-top: 50px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    background-color: #F5B7B1;
+}
+.sesion{
+    margin-top: 50px;
+    border: 2px solid #000;
+    padding: 100px;
+    background-color: rgba(0, 0, 0, 0.11);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 html{
     background-image: url(../imagenes/fondohtml.jpg);
     font-family: 'Koulen', cursive;
@@ -108,6 +206,7 @@ section#servicios{
 
 /*--------------------------------FOOTER-------------------------------------------*/
 footer{
+    border: 2px solid #000;
     grid-area: footer;
     background-image: url(../imagenes/footer.jpg);
     display: flex;
