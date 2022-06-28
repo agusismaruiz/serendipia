@@ -17,6 +17,9 @@
     text-align: center;
     padding: 25px;
 }
+.serenTitulo:hover{
+    background-color: beige;
+}
 #mainIndex{
     margin-top: 15px;
     border: 2px solid #000;
@@ -53,6 +56,9 @@
     border-top: 1px solid #000;
     border-bottom: 1px solid #000;
     background-color: #F5B7B1;
+}
+.tituloAside:hover{
+    background-color: beige;
 }
 .sesion{
     margin-top: 50px;
@@ -150,6 +156,9 @@ html{
 }
 .linkIndex{
     text-decoration: none;
+}
+.listasIndex:hover{
+    background-color: #000;
 }
 /*----------------------------------FIN CLASES GENERALES-------------------------*/
 
@@ -270,12 +279,14 @@ footer{
     object-fit: cover;
 }
 .conjuntosGaleria{
+    transform: rotate(13deg);
     border: 1px solid #000;
-    background-color: beige;
     position: absolute;
     bottom: 0;
     color: #000;
+    background-color: beige;
 }
+
 .tituloGaleria{
     display: flex;
     justify-content: center;
