@@ -9,14 +9,12 @@
     border: 2px solid #000;
     background-color: #F5B7B1 ;
     text-align: center;
-    margin-right: 130px;
+    
 }
 .serenTitulo{
-    border-bottom: 2px solid #000;
-    border-top: 2px solid #000;
+    margin-top: 50px;
     background-color:#F5B7B1 ;
     text-align: center;
-    margin-top: 80px;
     padding: 25px;
 }
 #mainIndex{
@@ -61,6 +59,12 @@
     border: 2px solid #000;
     padding: 100px;
     background-color: rgba(0, 0, 0, 0.11);
+}
+#titulo{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
 }
 
 
