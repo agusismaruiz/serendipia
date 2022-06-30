@@ -2,7 +2,8 @@
     text-align: center;
 }
 #encabezado{
-    background-image: url(../imagenes/pine-wood-texture.jpg);
+    background-image: url(../imagenes/HEADER.jpeg);
+    padding: px;
 }
 .columna1{
     margin-top: 10px;
@@ -13,25 +14,28 @@
 }
 .serenTitulo{
     margin-top: 50px;
-    background-color:#F5B7B1 ;
     text-align: center;
     padding: 25px;
+    color: #F5B7B1;
 }
-.serenTitulo:hover{
-    background-color: beige;
+.servH2{
+    text-align: center;
+    background-color: #000;
+    color: beige;
 }
+
 #mainIndex{
     margin-top: 15px;
     border: 2px solid #000;
     padding: 80px;
-    background-image: url(../imagenes/pine-wood-texture.jpg);
+    background-image: url(../imagenes/fondoROPA.jpg);
 }
 .color{
     color: #000;
-    background-color: #f5b7b1a6;
+    background-color: #b1f5cda6;
 }
 .body{
-    background-image: url(../imagenes/fondohtml.jpg);
+    background-color: beige;
 }
 .imgServicios{
     padding: 50px;
@@ -41,11 +45,11 @@
 }
 #servIndix{
     border: 2px solid #000;
-    background-image: url(../imagenes/pine-wood-texture.jpg);
+    background-image: url(../imagenes/Sweaters.jpg);
 }
 #asideIndex{
     border: 2px solid #000;
-    background-image: url(../imagenes/pine-wood-texture.jpg);
+    background-color: beige;
     margin-left: 10px;
 }
 #asidep{
@@ -55,7 +59,8 @@
     margin-top: 50px;
     border-top: 1px solid #000;
     border-bottom: 1px solid #000;
-    background-color: #F5B7B1;
+    background-color: #000;
+    color: beige;
 }
 .tituloAside:hover{
     background-color: beige;
@@ -71,6 +76,17 @@
     justify-content: center;
     margin-top: 30px;
 
+}
+
+#links{
+    color: white;
+}
+.asdasd{
+    padding-left: 150px;
+    color: white;
+}
+#navBar{
+    padding-bottom: 200px;
 }
 
 
@@ -158,7 +174,7 @@ html{
     text-decoration: none;
 }
 .listasIndex:hover{
-    background-color: #000;
+    background-color: beige;
 }
 /*----------------------------------FIN CLASES GENERALES-------------------------*/
 
@@ -221,7 +237,7 @@ section#servicios{
 footer{
     border: 2px solid #000;
     grid-area: footer;
-    background-image: url(../imagenes/footer.jpg);
+    background-color: #000;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
