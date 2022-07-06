@@ -1,7 +1,54 @@
-#galeriaCarrusel {
-  display: flex;
-  justify-content: center;
-  border: 2px solid #000;
+* {
+  overflow: hidden;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.filaUno a {
+  color: #fff;
+}
+.filaUno .imagenNav {
+  padding-right: 50px;
+}
+
+#menu h2, #menu h1 {
+  font-weight: 300;
+  color: rgb(59, 59, 59);
+}
+#menu h2:hover, #menu h1:hover {
+  color: #F5B7B1;
+}
+
+#menu {
+  background-color: beige;
+  height: 100%;
+}
+#menu:hover {
+  background-color: #000;
+}
+#menu h1 {
+  font-size: 2.7rem;
+  letter-spacing: 15px;
+}
+#menu h2 {
+  font-weight: 900;
+  font-size: 7rem;
+}
+#menu .cool-btn {
+  background-color: transparent;
+  color: rgb(59, 59, 59);
+  padding: 0.5rem 1rem;
+  border: 1px solid rgb(59, 59, 59);
+  font-size: 2rem;
+  width: 35%;
+  transition: 0.5s;
+}
+#menu .cool-btn:hover {
+  transform: translateY(-10px);
+  border: 1px solid #F5B7B1;
+  color: #F5B7B1;
+}
+#menu .imgMain {
+  padding-left: 200px;
 }
 
 /*# sourceMappingURL=sty.css.map */

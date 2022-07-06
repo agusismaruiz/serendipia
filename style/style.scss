@@ -1,1 +1,8 @@
-@import "./galeria"
+*{
+    overflow: hidden;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+@import "./header";
+@import "./main";
+@import "./variables";
+

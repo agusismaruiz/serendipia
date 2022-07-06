@@ -9,118 +9,71 @@
     <link rel="stylesheet" href="../style/css/sty.css">
     <!--BOOTSTRAP-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/pageable@latest/dist/pageable.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Koulen&family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet">
+
 
 
 </head>
 <body class="body">
-    <header id="encabezado" class="container-fluid">
-        <div class="row">
-          <div class="col-3 col-md-12 col-sm-12 col-xs-12 col-lg-3">
-            <img class="img-thumbnail" src="../imagenes/Sseren.jpg" alt="logo">
-          </div>
-          <div class="col-9">
-            <nav class="navbar navbar-dark bg-dark">
-              <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="../index.html">
-                    <img src="../imagenes/Sseren.jpg" alt="" width="30" height="24">
-                  </a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="../pages/nosotros.html">Nosotros</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="../pages/galeria.html">Galeria</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="../pages/contactanos.html">Contactanos</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="../pages/sesion.html">Iniciar sesion</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </nav>
-            </nav>
-            <h1 class="serenTitulo">Serendipia</h1>
-          </div>
-          </div>
-      </header>
+  <header id="encabezado" class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <div id="navBar">
+                <nav class="navbar navbar-dark bg-dark">
+                  <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                      <a id="links" class="navbar-brand " href="./index.html">
+                        <img src="../imagenes/Sseren.jpg" alt="" width="30" height="24">
+                      </a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav ulList">
+                          <li class="nav-item">
+                            <a id="links" class="nav-link active" aria-current="page" href="../pages/nosotros.html">Nosotros</a>
+                          </li>
+                          <li class="nav-item">
+                            <a id="links" class="nav-link" href="../pages/galeria.html">Galeria</a>
+                          </li>
+                          <li class="nav-item">
+                            <a id="links" class="nav-link" href="../pages/contactanos.html">Contactanos</a>
+                          </li>
+                          <li class="nav-item">
+                            <a id="links" class="nav-link" href="../pages/sesion.html">Iniciar sesion</a>
+                          </li>
+                        </ul>
+                        <div> 
+                            <h1 class="asdasd">Serendipia</h1>
+                        </div>
+                      </div>
+                    </div>
+                  </nav>
+                </nav>
+              </div>
+        </div>
+    </div>
+   
+</header>
       <!--FIN HEADER-->
-      <main class="container-fluid">
-        <div id="galeriaCarrusel" class="row">
-            <div class="col-4">
-                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-                    <div class="carousel-indicators">
-                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="../imagenes/serendipia.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                          <h5>First slide label</h5>
-                          <p>Some representative placeholder content for the first slide.</p>
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <img src="../imagenes/Sseren.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                          <h5>Second slide label</h5>
-                          <p>Some representative placeholder content for the second slide.</p>
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <img src="../imagenes/galeriaCarrusel.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                          <h5>Third slide label</h5>
-                          <p>Some representative placeholder content for the third slide.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
 
-            </div>
-        
-        </div>
+<div id="container">
+  <div data-anchor="Page 1" class="bg-primary">
+    <h2>Tienda Onlines Serendipia</h2>
+  </div>
+  <div data-anchor="Page 2">
 
-      </main>
-
-    <!--FOOTER-->
-    <footer class="border">
-        <div class="divFooter">
-            <img src="../imagenes/social-icons.svg" alt="redesIndex">
-        </div>
-        <div >
-            <ul>
-                <li class="listasIndex">
-                    <a class="linkIndex" href="https://www.instagram.com/serendipia.unica/">Instagram</a>
-                </li>
-                <li class="listasIndex">
-                    <a class="linkIndex" href="https://www.facebook.com/">Facebook</a>
-                </li>
-                <li class="listasIndex">
-                    <a class="linkIndex" href="https://twitter.com/?lang=es">Twiter</a>
-                </li>
-            </ul>     
-        </div>
-    </footer>
-    <!--FIN FOOTER-->
+  </div>
+</div>
 
     <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/pageable@latest/dist/pageable.min.jshttps://unpkg.com/pageable@latest/dist/pageable.min.js"></script>
+<script>
+  new Pageable("#container");
+</script>
 </body>
 </html>

@@ -1,0 +1,43 @@
+@import "./variables";
+%titulos{
+    font-weight: $fWeight;
+    color:rgb(59, 59, 59) ;
+    &:hover{
+        color:#F5B7B1 ;
+    }
+}
+#menu{
+    background-color: beige;
+    height: 100%;
+    &:hover{
+        background-color: #000;
+    }
+    h1{
+        font-size: 2.7rem;
+        letter-spacing: 15px;
+        @extend %titulos;
+    }
+    h2{
+        font-weight: $fWeight3;
+        font-size: 7rem;
+        @extend %titulos
+    }
+    .cool-btn{
+        background-color: transparent;
+        color: rgb(59, 59, 59);
+        padding: .5rem 1rem;
+        border: 1px solid rgb(59, 59, 59);
+        font-size: 2rem;
+        width: 35%;
+        transition: 0.5s;
+        &:hover{
+            transform: translateY(-10px);
+            border: 1px solid #F5B7B1;
+            color: #F5B7B1;
+        }
+    }
+    .imgMain{
+        padding-left: 200px;
+    }
+
+}
