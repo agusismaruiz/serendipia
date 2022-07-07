@@ -3,14 +3,14 @@
     font-weight: $fWeight;
     color:rgb(59, 59, 59) ;
     &:hover{
-        color:#F5B7B1 ;
+        color:$colorRos ;
     }
 }
 #menu{
     background-color: beige;
     height: 100%;
     &:hover{
-        background-color: #000;
+        background-color: $colorNeg;
     }
     h1{
         font-size: 2.7rem;
@@ -32,12 +32,57 @@
         transition: 0.5s;
         &:hover{
             transform: translateY(-10px);
-            border: 1px solid #F5B7B1;
-            color: #F5B7B1;
+            border: 1px solid $colorRos;
+            color: $colorRos;
         }
     }
     .imgMain{
         padding-left: 200px;
     }
+}
 
+#menu2{
+    background-color: $colorRos;
+
+    .tituloProductos{
+        display: flex;
+        justify-content: center;
+        background-color: $colorNeg;
+        color: beige;
+        text-align: center;
+        margin-bottom: 50px;
+        padding: 15px;
+        transition: 0.5s;
+        &:hover{
+            transform: translateY(10px);
+        }
+        
+    }
+    .card{
+        background-color: $colorWh;
+        color: $colorNeg;
+        transition: 0.5s ;
+        &:hover{
+            background-color: $colorNeg;
+            color: $colorWh;
+            transform: translateY(10px) ;
+        }
+
+    }
+    
+}
+
+@each $redSocial, $color in $redes {
+    .btn-#{$redSocial}{
+        color: #fff;
+        padding: 5px;
+        border: 0;
+        border-radius: 05px;
+        background-color: $color;
+    }
+    
+}
+#footer{
+    #redes{
+    }
 }
