@@ -1,79 +1,92 @@
-<!DOCTYPE html>
-<html class="galeria" lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galeria</title>
-    <link rel="stylesheet" href="../style/style.css">
-    <link rel="stylesheet" href="../style/css/sty.css">
-    <!--BOOTSTRAP-->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Serendipia galeria</title>
+    <!------------------------------------------------------------------------------------------------------------------>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/pageable@latest/dist/pageable.min.css">
+    <!--FONT-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Koulen&family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet">
-
-
-
-</head>
-<body class="body">
-  <header id="encabezado" class="container-fluid">
-    <div class="row">
-        <div class="col-12">
-            <div id="navBar">
-                <nav class="navbar navbar-dark bg-dark">
-                  <nav class="navbar navbar-expand-lg">
-                    <div class="container-fluid">
-                      <a id="links" class="navbar-brand " href="./index.html">
-                        <img src="../imagenes/Sseren.jpg" alt="" width="30" height="24">
-                      </a>
-                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav ulList">
-                          <li class="nav-item">
-                            <a id="links" class="nav-link active" aria-current="page" href="../pages/nosotros.html">Nosotros</a>
-                          </li>
-                          <li class="nav-item">
-                            <a id="links" class="nav-link" href="../pages/galeria.html">Galeria</a>
-                          </li>
-                          <li class="nav-item">
-                            <a id="links" class="nav-link" href="../pages/contactanos.html">Contactanos</a>
-                          </li>
-                          <li class="nav-item">
-                            <a id="links" class="nav-link" href="../pages/sesion.html">Iniciar sesion</a>
-                          </li>
-                        </ul>
-                        <div> 
-                            <h1 class="asdasd">Serendipia</h1>
-                        </div>
-                      </div>
-                    </div>
-                  </nav>
-                </nav>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+<!--STYLES-->
+    <link rel="stylesheet" href="../style/css/sty.css">
+  </head>
+  <body>
+    <div id="container">
+      <div data-anchor="Page 1" class="bg-ligth">
+        <header class="row filaUno">
+  
+          <div class="col">
+            <nav class="navbar navbar-expand-lg bg-dark">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Menu Inicio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./pages/galeria.html">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./pages/contactanos.html">Contactanos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./pages/sesion.html">Iniciar sesion</a>
+                    </li>
+                  </ul>
+                </div>
               </div>
-        </div>
-    </div>
-   
-</header>
-      <!--FIN HEADER-->
+              <img class="imagenNav" src="./imagenes/logoNavBar.jpg" alt="serendipia">
+            </nav>
+            </div>
+          </header>
+        
+      <div data-anchor="Page 2" class="bg-ligth">
 
-<div id="container">
-  <div data-anchor="Page 1" class="bg-primary">
-    <h2>Tienda Onlines Serendipia</h2>
-  </div>
-  <div data-anchor="Page 2">
 
   </div>
-</div>
-
-    <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/pageable@latest/dist/pageable.min.jshttps://unpkg.com/pageable@latest/dist/pageable.min.js"></script>
-<script>
-  new Pageable("#container");
-</script>
-</body>
+    <script src="https://unpkg.com/pageable@latest/dist/pageable.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script>
+      new Pageable("#container");;
+    </script>
+    
+  
+  </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+<!--<div class="row m-5">
+      <div class="col-lg-4 mb-4">
+        <img class="w-100 mb-4 rounded" src="../imagenes/wepik-creative-art-history-general-presentation-202269-18502.jpeg" alt="">
+        <img class="w-100 mb-4 rounded" src="../imagenes/galeriaCarrusel2.0.jpg" alt="">
+        
+      </div>
+      <div class="col-lg-4 mb-4">
+        <img class="w-100 mb-4 rounded" src="../imagenes/indexCarrusel2.0.jpg" alt="">
+        <img class="w-100 mb-4 rounded" src="../imagenes/Sweaters2.0.jpg" alt="">
+
+      </div> 
+      <div class="col-lg-4 mb-4">
+        <img class="w-100 mb-4 rounded" src="../imagenes/set-with-fashionable-women-s-clothing-shirt-jeans-and-bag-trendy-hipster-look-flat-lay - Acceso directo.lnk" alt="">
+        <img class="w-100 mb-4 rounded" src="../imagenes/individual5 2.0.jpg" alt="">
+
+      </div>       
+
+    </div>-->

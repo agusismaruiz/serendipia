@@ -6,6 +6,16 @@
         color:$colorRos ;
     }
 }
+@each $redSocial, $color in $redes {
+    .btn-#{$redSocial}{
+        color: #fff;
+        padding: 5px;
+        border: 0;
+        border-radius: 05px;
+        background-color: $color;
+    }
+    
+}
 #menu{
     background-color: beige;
     height: 100%;
@@ -72,17 +82,20 @@
     
 }
 
-@each $redSocial, $color in $redes {
-    .btn-#{$redSocial}{
-        color: #fff;
-        padding: 5px;
-        border: 0;
-        border-radius: 05px;
-        background-color: $color;
+
+
+.footer{
+    background-color: $colorWh;
+    .miniFooter{
+        padding: 80px;
     }
-    
-}
-#footer{
-    #redes{
+    .tituloFooter{
+        text-align: center;
+        color: $colorWh;
+        font-size: $fzises;
+        font-weight: $fWeight;
+        padding: 50px;
+        margin-top: 30px;
     }
 }
+

@@ -18,6 +18,30 @@
   color: #F5B7B1;
 }
 
+.btn-twitter {
+  color: #fff;
+  padding: 5px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #55acee;
+}
+
+.btn-facebook {
+  color: #fff;
+  padding: 5px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #3a5795;
+}
+
+.btn-instagram {
+  color: #fff;
+  padding: 5px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #9c0e42;
+}
+
 #menu {
   background-color: beige;
   height: 100%;
@@ -78,28 +102,19 @@
   transform: translateY(10px);
 }
 
-.btn-twitter {
-  color: #fff;
-  padding: 5px;
-  border: 0;
-  border-radius: 5px;
-  background-color: #55acee;
+.footer {
+  background-color: #fff;
 }
-
-.btn-facebook {
-  color: #fff;
-  padding: 5px;
-  border: 0;
-  border-radius: 5px;
-  background-color: #3a5795;
+.footer .miniFooter {
+  padding: 80px;
 }
-
-.btn-instagram {
+.footer .tituloFooter {
+  text-align: center;
   color: #fff;
-  padding: 5px;
-  border: 0;
-  border-radius: 5px;
-  background-color: #9c0e42;
+  font-size: 50px;
+  font-weight: 300;
+  padding: 50px;
+  margin-top: 30px;
 }
 
 /*# sourceMappingURL=sty.css.map */
