@@ -1,3 +1,5 @@
+@import "./variables";
+
 .filaUno{
         a{
             color: #fff;
@@ -6,6 +8,15 @@
             padding-right: 50px;
         }
     }
+    /*header galeria*/
+.headerGaleria{
+    a{
+        color: #fff;
+    }
+    .imgGaleria{
+        padding-right: 50px;
+    }
+}
 
 
 

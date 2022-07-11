@@ -1,0 +1,91 @@
+%titulos{
+    font-weight: $fWeight;
+    color:rgb(59, 59, 59) ;
+    &:hover{
+        color:$colorRos ;
+    }
+    *{
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+}
+.bodyGaleria{
+    overflow-x: hidden;
+    background-color: $colorNeg;
+    #rowDos{
+        background-color: $colorNeg;
+        padding-top: 150px;
+        padding-bottom:10px;
+        padding-left: 35px;
+        .imgLogo{
+            border: 1px solid $colorNeg;
+            transition: 0.5s;
+            &:hover{
+                transform: translate(10px);
+                border: 5px solid $colorWh;
+            }
+        }
+        h1{
+            font-size: 2.7rem;
+            letter-spacing: 15px;
+            @extend %titulos;
+            color: $colorRos;
+        }
+        h2{
+            font-weight: $fWeight;
+            font-size: 3rem;
+            @extend %titulos;
+            color: $colorRos;
+        }
+        .imgLogo{
+           position: relative;
+           bottom: 80px;
+        }
+    }
+    .h2Galeria{
+        background-color: $colorNeg;
+        text-align: center;
+        font-size: 2.7rem;
+        letter-spacing: 15px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        transition: 0.5s;
+        &:hover{
+            color: $colorRos;
+            transform: translateY(10px);
+        }
+
+    }
+    #rowTres{
+        background-color: $colorNeg;
+        .carousel{
+            border: 1px solid $colorNeg;
+
+        }
+        h5{
+            background-color: rgba(252, 164, 197, 0.329);
+            color: $colorNeg;
+            transition: 0.5s;
+            &:hover{
+                transform: translateY(-10px);
+            }
+        }
+        p{
+            color: $colorNeg;
+            background-color: $colorRos;
+        }
+    }
+}
+#rowCuatro{
+    background-color: $colorNeg;
+    .img4{
+        border: 3px solid $colorWh;
+        transition: 0.5s;
+        &:hover{
+            transform: translateY(10px);
+            border: 2px solid $colorRos;
+        }
+    }
+}
+@media screen and (min-width:500px) {
+
+}

@@ -1,8 +1,10 @@
-*{
-    overflow: hidden;
+#container{
+    overflow-x: hidden;
     font-family: 'Source Sans Pro', sans-serif;
 }
+
 @import "./header";
 @import "./main";
 @import "./variables";
+@import "./galeria";
 

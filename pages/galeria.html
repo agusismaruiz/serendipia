@@ -3,90 +3,355 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Serendipia galeria</title>
-    <!------------------------------------------------------------------------------------------------------------------>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://unpkg.com/pageable@latest/dist/pageable.min.css">
-    <!--FONT-->
+    <title>Serendipia Galeria</title>
+    <!-- FONT-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
-<!--STYLES-->
+
     <link rel="stylesheet" href="../style/css/sty.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   </head>
   <body>
-    <div id="container">
-      <div data-anchor="Page 1" class="bg-ligth">
-        <header class="row filaUno">
+    <div class="bodyGaleria">
+        <!----------------------------------------- ROW UNO ----------------------------------------------->
+
+        <header class="row headerGaleria" id="rowUno">
   
-          <div class="col">
-            <nav class="navbar navbar-expand-lg bg-dark">
-              <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">Menu Inicio</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                  <ul class="navbar-nav">
-                    <li class="nav-item">
-                      <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="./pages/galeria.html">Galeria</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="./pages/contactanos.html">Contactanos</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="./pages/sesion.html">Iniciar sesion</a>
-                    </li>
-                  </ul>
+            <div class="col">
+              <nav class="navbar navbar-expand-lg bg-dark">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="../index.html">Menu Inicio</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../pages/galeria.html">Galeria</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../pages/contactanos.html">Contactanos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../pages/sesion.html">Iniciar sesion</a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
+                <img class="imgGaleria" src="../imagenes/logoNavBar.jpg" alt="serendipia">
+              </nav>
               </div>
-              <img class="imagenNav" src="./imagenes/logoNavBar.jpg" alt="serendipia">
-            </nav>
+            </header>
+            <!----------------------------------------- ROW UNO FIN ----------------------------------------------->
+            
+            <!----------------------------------------- ROW DOS ----------------------------------------------->
+            <div class="row align-content-center" id="rowDos">
+                <div class="col">
+                    <h1>Bienvenidos</h1>
+                    <br>
+                    <br>
+                    <h2>Galeria Serendipia <br> Tienda online</h2>
+                </div>
+
+                <div class="col">
+                    <div>
+                        <img src="../imagenes/imgIluminada.jpg" class="img-fluid imgMain imgLogo" alt="Logo">
+                      </div>
+
+                </div>
             </div>
-          </header>
-        
-      <div data-anchor="Page 2" class="bg-ligth">
+
+            <!----------------------------------------- ROW DOS FIN ----------------------------------------------->
+            
+            <!----------------------------------------- ROW TRES ----------------------------------------------->
+            <div class="row justify-content-center" id="rowTres">
+
+                <div class="col">
 
 
-  </div>
-    <script src="https://unpkg.com/pageable@latest/dist/pageable.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-    <script>
-      new Pageable("#container");;
-    </script>
+                    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="../imagenes/Conjunto1.jpg" class="d-block w-100" alt="conjunto2">
+                          </div>
+                          <div class="carousel-item" data-bs-interval="2000">
+                            <img src="../imagenes/conjunto2.jpg" class="d-block w-100" alt="conjunto2">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="../imagenes/conjunto3.jpg" class="d-block w-100" alt="conjunto3">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>   
+
+                </div>
+
+                <div class="col-4">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="../imagenes/serendipia.jpg" class="d-block w-100" alt="serendipia">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Serendipia</h5>
+                              <p>Es una marca de confianza y calidad tratamos de ofrecer el mejor producto para nuetros clientes.</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="../imagenes/fondoBuzos.jpg" class="d-block w-100" alt="Buzos de colores">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Serendipia</h5>
+                              <p>Es una marca de confianza y calidad tratamos de ofrecer el mejor producto para nuetros clientes.</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="../imagenes/fondoROPA.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Serendipia</h5>
+                              <p>Es una marca de confianza y calidad tratamos de ofrecer el mejor producto para nuetros clientes.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+
+                </div>
+
+                <div class="col">
+
+                    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="../imagenes/conjunto4.jpg" class="d-block w-100" alt="conjunto4">
+                          </div>
+                          <div class="carousel-item" data-bs-interval="2000">
+                            <img src="../imagenes/conjunto5.jpg" class="d-block w-100" alt="conjunto5">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="../imagenes/conjunto6.jpg" class="d-block w-100" alt="conjunto6">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+
+                </div>
+                
+
+            </div>
+
+            <!----------------------------------------- ROW TRES FIN ----------------------------------------------->
+            <h2 class="h2Galeria">¡Hecha un vistazo a nuestros productos y precios!</h2>
+            <!----------------------------------------- ROW CUATRO ----------------------------------------------->
+
+            <div class="row" id="rowCuatro">
+                <div class="col-lg-4 mb-4">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#modalImage1">
+                        <img class="w-100 mb-4 rounded img4" src="../imagenes/galeria1.jpeg" alt="sweaters">
+                    </a>
+
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#modalImage2">
+                        <img class="w-100 mb-4 rounded img4" src="../imagenes/galeria2.jpg" alt="sweater color gris">
+                    </a>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#modalImage3">
+                        <img class="w-100 mb-4 rounded img4" src="../imagenes/indexCarrusel1.jpg" alt="Conjunto">
+                    </a>
+
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#modalImage4">
+                        <img class="w-100 mb-4 rounded img4" src="../imagenes/galeria4.jpg" alt="remera blanca lisa">
+                    </a>
+                  
+                </div> 
+                <div class="col-lg-4 mb-4">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#modalImage5">
+                        <img class="w-100 mb-4 rounded img4" src="../imagenes/galeria5.jpg" alt="Conjunto de camisa">
+                    </a>
+
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#modalImage6">
+                        <img class="w-100 mb-4 rounded img4" src="../imagenes/galeria6.jpg" alt="pantalones de colores">
+                    </a>
+                </div>       
+              </div>
+              <!-- Modal Galeria-->
+
+              <!-- Imagen1-->
+            <div tabindex="-1" aria-labelledby="modalImage1" aria-hidden="true" class="modal fade" id="modalImage1">
+
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <img src="../imagenes/galeria1 2.0.jpeg" alt="sweaters">
+                    <p class="h2">Sweaters de colores Precio por unidad: $4500</p>
+                </div>
+            </div>
+
+            </div>
+            <!-- Imagen2 -->
+            <div tabindex="-1" aria-labelledby="modalImage2" aria-hidden="true" class="modal fade" id="modalImage2">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+
+                    <div class="modal-content">
+                        <img src="../imagenes/galeria2 2.0.jpg" alt="sweater color gris">
+                        <p class="h2">Sweaters con cuello Precio por unidad: $5000</p>        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <!-- Imagen3 -->
+          <div tabindex="-1" aria-labelledby="modalImage3" aria-hidden="true" class="modal fade" id="modalImage3">
+
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <img src="../imagenes/indexCarrusel1.jpg" alt="Conjunto">
+                    <p class="h2">Conjunto de noche Precio: $7800</p>
+                </div>
+
+            </div>
+          </div>
+
+           <!-- Imagen4 -->
+           <div tabindex="-1" aria-labelledby="modalImage4" aria-hidden="true" class="modal fade" id="modalImage4">
+
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <img src="../imagenes/galeria4 2.0.jpg" alt="remera blanca lisa">
+                    <p class="h2">Remera blanca lisa Precio: $900</p>
+                </div>
+
+            </div>
+          </div>
+
+          <!-- Imagen5 -->
+          <div tabindex="-1" aria-labelledby="modalImage5" aria-hidden="true" class="modal fade" id="modalImage5">
+
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <img src="../imagenes/galeria5 2.0.jpg" alt="Conjunto de camisa">
+                    <p class="h2">Conjunto de camisa con pantalon: $8800</p>
+                </div>
+
+            </div>
+          </div>
+
+          <!-- Imagen6 -->
+          <div tabindex="-1" aria-labelledby="modalImage6" aria-hidden="true" class="modal fade" id="modalImage6">
+
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <img src="../imagenes/galeria6.jpg" alt="pantalones de colores">
+                    <p class="h2">Pantalones de colores Precio por unidad: $7800</p>
+                </div>
+
+            </div>
+          </div>
+
+              <!-- Fin Modal Galeria-->
+              <!----------------------------------------- ROW CUATRO FIN ----------------------------------------------->
+              
+              <!----------------------------------------- ROW FOOTER ----------------------------------------------->
+              <footer>
+                <div class="row p-5 bg-dark text-white">
+      
+                    <div class="col-xs-12 col-md-6 col-lg-3">
+                      <p class="h2 mb-4">Serendipia</p>
+                      <p>Página creada por Agustin Ruiz</p>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-3">
+                      <p class="h3 mb-4">
+                        Redes Sociales
+                      </p>
+                      <div>
+                        <button class="btn-twitter">
+                          <a class="text-white text-decoration-none" href="https://twitter.com/?lang=es">Twitter</a>
+                        </button>
+                      </div>
+                      <br>
+                      <div>
+                        <button class="btn-facebook">
+                          <a class="text-white text-decoration-none" href="https://www.facebook.com/">Facebook</a>
+                        </button>
+                      </div>
+                      <br>
+                      <div>
+                        <button class="btn-instagram">
+                          <a class="text-white text-decoration-none" href="https://www.instagram.com/serendipia.unica/">Instagram</a>
+                        </button>
+                      </div>
+                      
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-3">
+                      <p class="h3 mb-3">
+                        Ayuda
+                      </p>
+                      <div class="mb-2">
+                        <a class="text-secondary text-decoration-none" href="#">Comprar</a>
+                      </div>
+                      <div class="mb-2">
+                        <a class="text-secondary text-decoration-none" href="#">¿Cómo comprar?</a>
+                      </div>
+                      <div class="mb-2">
+                        <a class="text-secondary text-decoration-none" href="#">¿Como ingresar mis datos?</a>
+                      </div>
+                      <div class="mb-2">
+                        <a class="text-secondary text-decoration-none" href="./pages/contactanos.html">¿Cómo contactanos?</a>
+                      </div>
+          
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-3">
+                      <p class="h3 mb-3">
+                        Servicios
+                      </p>
+                      <div>
+                        <a class="text-secondary text-decoration-none mb-4" href="">Envios</a>
+                      </div>
+                      <br>
+                      <div>
+                        <a class="text-secondary text-decoration-none mb-4" href="">Soporte Tecnico</a>
+                      </div>
+                      <br>
+                      <div>
+                        <a class="text-secondary text-decoration-none mb-4" href="">Promociones</a>
+                      </div>
+                    </div>
+                  </div>
+              </footer>
+    </div>
+              <!----------------------------------------- ROW FOOTER FIN ----------------------------------------------->
     
-  
+    
+    
+    
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-<!--<div class="row m-5">
-      <div class="col-lg-4 mb-4">
-        <img class="w-100 mb-4 rounded" src="../imagenes/wepik-creative-art-history-general-presentation-202269-18502.jpeg" alt="">
-        <img class="w-100 mb-4 rounded" src="../imagenes/galeriaCarrusel2.0.jpg" alt="">
-        
-      </div>
-      <div class="col-lg-4 mb-4">
-        <img class="w-100 mb-4 rounded" src="../imagenes/indexCarrusel2.0.jpg" alt="">
-        <img class="w-100 mb-4 rounded" src="../imagenes/Sweaters2.0.jpg" alt="">
-
-      </div> 
-      <div class="col-lg-4 mb-4">
-        <img class="w-100 mb-4 rounded" src="../imagenes/set-with-fashionable-women-s-clothing-shirt-jeans-and-bag-trendy-hipster-look-flat-lay - Acceso directo.lnk" alt="">
-        <img class="w-100 mb-4 rounded" src="../imagenes/individual5 2.0.jpg" alt="">
-
-      </div>       
-
-    </div>-->

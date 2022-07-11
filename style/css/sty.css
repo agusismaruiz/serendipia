@@ -1,5 +1,5 @@
-* {
-  overflow: hidden;
+#container {
+  overflow-x: hidden;
   font-family: "Source Sans Pro", sans-serif;
 }
 
@@ -10,11 +10,19 @@
   padding-right: 50px;
 }
 
-#menu h2, #menu h1 {
+/*header galeria*/
+.headerGaleria a {
+  color: #fff;
+}
+.headerGaleria .imgGaleria {
+  padding-right: 50px;
+}
+
+.bodyGaleria #rowDos h2, .bodyGaleria #rowDos h1, #menu h2, #menu h1 {
   font-weight: 300;
   color: rgb(59, 59, 59);
 }
-#menu h2:hover, #menu h1:hover {
+.bodyGaleria #rowDos h2:hover, .bodyGaleria #rowDos h1:hover, #menu h2:hover, #menu h1:hover {
   color: #F5B7B1;
 }
 
@@ -115,6 +123,93 @@
   font-weight: 300;
   padding: 50px;
   margin-top: 30px;
+}
+
+.bodyGaleria #rowDos h2, .bodyGaleria #rowDos h1, #menu h1, #menu h2 {
+  font-weight: 300;
+  color: rgb(59, 59, 59);
+}
+.bodyGaleria #rowDos h2:hover, .bodyGaleria #rowDos h1:hover, #menu h1:hover, #menu h2:hover {
+  color: #F5B7B1;
+}
+.bodyGaleria #rowDos h2 *, .bodyGaleria #rowDos h1 *, #menu h1 *, #menu h2 * {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.bodyGaleria {
+  overflow-x: hidden;
+  background-color: #000;
+}
+.bodyGaleria #rowDos {
+  background-color: #000;
+  padding-top: 150px;
+  padding-bottom: 10px;
+  padding-left: 35px;
+}
+.bodyGaleria #rowDos .imgLogo {
+  border: 1px solid #000;
+  transition: 0.5s;
+}
+.bodyGaleria #rowDos .imgLogo:hover {
+  transform: translate(10px);
+  border: 5px solid #fff;
+}
+.bodyGaleria #rowDos h1 {
+  font-size: 2.7rem;
+  letter-spacing: 15px;
+  color: #F5B7B1;
+}
+.bodyGaleria #rowDos h2 {
+  font-weight: 300;
+  font-size: 3rem;
+  color: #F5B7B1;
+}
+.bodyGaleria #rowDos .imgLogo {
+  position: relative;
+  bottom: 80px;
+}
+.bodyGaleria .h2Galeria {
+  background-color: #000;
+  text-align: center;
+  font-size: 2.7rem;
+  letter-spacing: 15px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  transition: 0.5s;
+}
+.bodyGaleria .h2Galeria:hover {
+  color: #F5B7B1;
+  transform: translateY(10px);
+}
+.bodyGaleria #rowTres {
+  background-color: #000;
+}
+.bodyGaleria #rowTres .carousel {
+  border: 1px solid #000;
+}
+.bodyGaleria #rowTres h5 {
+  background-color: rgba(252, 164, 197, 0.329);
+  color: #000;
+  transition: 0.5s;
+}
+.bodyGaleria #rowTres h5:hover {
+  transform: translateY(-10px);
+}
+.bodyGaleria #rowTres p {
+  color: #000;
+  background-color: #F5B7B1;
+}
+
+#rowCuatro {
+  background-color: #000;
+}
+#rowCuatro .img4 {
+  border: 3px solid #fff;
+  transition: 0.5s;
+}
+#rowCuatro .img4:hover {
+  transform: translateY(10px);
+  border: 2px solid #F5B7B1;
 }
 
 /*# sourceMappingURL=sty.css.map */
