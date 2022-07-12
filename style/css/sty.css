@@ -1,5 +1,5 @@
 #container {
-  overflow-x: hidden;
+  overflow: hidden;
   font-family: "Source Sans Pro", sans-serif;
 }
 
@@ -18,11 +18,11 @@
   padding-right: 50px;
 }
 
-.bodyGaleria #rowDos h2, .bodyGaleria #rowDos h1, #menu h2, #menu h1 {
+.nosotrosPage #nosotrosRow2 h2, .nosotrosPage #nosotrosRow2 h1, .bodyGaleria #rowDos h2, .bodyGaleria #rowDos h1, #menu h2, #menu h1 {
   font-weight: 300;
   color: rgb(59, 59, 59);
 }
-.bodyGaleria #rowDos h2:hover, .bodyGaleria #rowDos h1:hover, #menu h2:hover, #menu h1:hover {
+.nosotrosPage #nosotrosRow2 h2:hover, .nosotrosPage #nosotrosRow2 h1:hover, .bodyGaleria #rowDos h2:hover, .bodyGaleria #rowDos h1:hover, #menu h2:hover, #menu h1:hover {
   color: #F5B7B1;
 }
 
@@ -125,14 +125,14 @@
   margin-top: 30px;
 }
 
-.bodyGaleria #rowDos h2, .bodyGaleria #rowDos h1, #menu h1, #menu h2 {
+.nosotrosPage #nosotrosRow2 h2, .nosotrosPage #nosotrosRow2 h1, .bodyGaleria #rowDos h2, .bodyGaleria #rowDos h1, #menu h1, #menu h2 {
   font-weight: 300;
   color: rgb(59, 59, 59);
 }
-.bodyGaleria #rowDos h2:hover, .bodyGaleria #rowDos h1:hover, #menu h1:hover, #menu h2:hover {
+.nosotrosPage #nosotrosRow2 h2:hover, .nosotrosPage #nosotrosRow2 h1:hover, .bodyGaleria #rowDos h2:hover, .bodyGaleria #rowDos h1:hover, #menu h1:hover, #menu h2:hover {
   color: #F5B7B1;
 }
-.bodyGaleria #rowDos h2 *, .bodyGaleria #rowDos h1 *, #menu h1 *, #menu h2 * {
+.nosotrosPage #nosotrosRow2 h2 *, .nosotrosPage #nosotrosRow2 h1 *, .bodyGaleria #rowDos h2 *, .bodyGaleria #rowDos h1 *, #menu h1 *, #menu h2 * {
   font-family: "Source Sans Pro", sans-serif;
 }
 
@@ -210,6 +210,26 @@
 #rowCuatro .img4:hover {
   transform: translateY(10px);
   border: 2px solid #F5B7B1;
+}
+
+.nosotrosPage {
+  overflow-x: hidden;
+}
+.nosotrosPage #nosotrosRow2 {
+  background-color: #000;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  padding-left: 35px;
+}
+.nosotrosPage #nosotrosRow2 h1 {
+  font-size: 2.7rem;
+  letter-spacing: 15px;
+  color: #F5B7B1;
+}
+.nosotrosPage #nosotrosRow2 h2 {
+  font-weight: 300;
+  font-size: 3rem;
+  color: #F5B7B1;
 }
 
 /*# sourceMappingURL=sty.css.map */

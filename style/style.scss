@@ -1,5 +1,5 @@
 #container{
-    overflow-x: hidden;
+    overflow: hidden;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -7,4 +7,5 @@
 @import "./main";
 @import "./variables";
 @import "./galeria";
+@import "./nosotros"
 

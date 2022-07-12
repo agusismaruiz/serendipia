@@ -1,0 +1,21 @@
+.nosotrosPage{
+    overflow-x: hidden;
+    #nosotrosRow2{
+        background-color: $colorNeg;
+        padding-top: 150px;
+        padding-bottom:150px;
+        padding-left: 35px;
+        h1{
+            font-size: 2.7rem;
+            letter-spacing: 15px;
+            @extend %titulos;
+            color: $colorRos;
+        }
+        h2{
+            font-weight: $fWeight;
+            font-size: 3rem;
+            @extend %titulos;
+            color: $colorRos;
+        }
+    }
+}
