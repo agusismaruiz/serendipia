@@ -1,117 +1,196 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contactanos</title>
-    <link rel="stylesheet" href="../style/style.css">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Serendipia Contactanos</title>
 
-</head>
-<body>
-    <!--HEADER-->
-    <section id="grilla2">
-        <header class="border" id="headerGaleria">
-            <h1 class="titulo">
-                Bienvenidos a Serendipia
-            </h1>
+
+    <link rel="stylesheet" href="../style/css/sty.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+  <body>
+    <section class="contactanosPage">
+
+        <!-- HEADER -->
+    <header class="row headerGaleria" id="rowUno">
+  
+        <div class="col">
+          <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html">Menu Inicio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/galeria.html">Galeria</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/contactanos.html">Contactanos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/sesion.html">Iniciar sesion</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <img class="imgGaleria" src="../imagenes/logoNavBar.jpg" alt="serendipia">
+          </nav>
+          </div>
         </header>
+        <!-- FIN HEADER -->
 
-        <nav class="border" id="navGaleria">
-            <div>
-                <ul>
-                    <li class="listasIndex"><a class="linkIndex" href="./nosotros.html">Nostros</a></li>
-                </ul>
-            </div>
-            <div>
-                <ul>
-                    <li class="listasIndex"><a class="linkIndex" href="./galeria.html">Galeria</a></li>
-                </ul>
-            </div>
-            <div>
-                <ul>
-                    <li class="listasIndex"><a class="linkIndex" href="./contactanos.html">Contactanos</a></li>
-                </ul>
-            </div>
-            <div>
-                <ul>
-                    <li class="listasIndex"><a class="linkIndex" href="./sesion.html">Iniciar Secion</a></li>
-                </ul>
-            </div>
-            <div>
-                <ul>
-                    <li class="listasIndex">
-                        <a class="linkIndex" href="../index.html">Volver al inicio</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </section>
-    <!--FIN HEADER-->
-     
-    <!--SECTION1-->
-    <section class="seccionContactos">
-        <h3 class="tituloSecciones"id="tituloContactos">Dejanos tus datos y danos tu opinión.</h3>
-        <br>
-        <hr>
-        <form>
-            <label for="nombre">Nombre</label>
-            <br>
-            <input type="text">
-            <hr>
-            <label for="apellido">Apellido</label>
-            <br>
-            <input type="text">
-            <hr>
-            <label for="numerotelefonico">Tu número de Telefono</label>
-            <br>
-            <input type="number">
-            <br>
-            <hr>
-            <label for="email">Tu correo electrónico</label>
-            <br>
-            <input type="email">
-            <br>
-            <hr>
-            <select >
-                <option selected="selected">Selecciónar sexo:</option>
-                <option>Masculino</option>
-                <option>Femenino</option>
-                <option>Otros</option>
-            </select>
-            <br>
-            <hr>
-            <p>Algo que quieras comentar?</p>
-            <br>
-            <textarea name="" id="" cols="30" rows="10">Deja tu comentario:</textarea>
-            <br>
-            <hr>
-            <input type="submit" name="enviar">
-            <input type="reset" name="restablecer">
-        </form>
-    </section>
-    <!--FIN SECTION1-->
+        <!-- MAIN -->
+        <div class="row" id="rowCont1">
 
-    <!--FOOTER-->
-    <footer class="border">
-        <div class="divFooter">
-            <img src="../imagenes/social-icons.svg" alt="redesIndex">
+            <div class="col">
+                <h1 class="text-center">¡CONTACTANOS!</h1>
+                <h2 class="text-center">Bienvenidos <br> llena la solicitud de abajo</h2>
+            </div>
+            <div class="col">
+            </div>
         </div>
-        <div >
-            <ul>
-                <li class="listasIndex">
-                    <a class="linkIndex" href="https://www.instagram.com/serendipia.unica/">Instagram</a>
-                </li>
-                <li class="listasIndex">
-                    <a class="linkIndex" href="https://www.facebook.com/">Facebook</a>
-                </li>
-                <li class="listasIndex">
-                    <a class="linkIndex" href="https://twitter.com/?lang=es">Twiter</a>
-                </li>
-            </ul>     
-        </div>
-    </footer>
-    <!--FIN FOOTER-->
+
+        <main class="formulario">
+
+            <div class="rowCont2">
+                <div class="col">
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Nombre</label>
+                      </div>
+                      <div class="form-floating">
+                        <input type="email" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Apellido</label>
+                      </div>
+                      <br>
+                      <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Numero de telefono</label>
+                      </div>
+                      <br>
+                      <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email</label>
+                      </div>
+                      <br>
+                      <select class="form-select" aria-label="Default select example">
+                        <option selected>Selecciona Sexo</option>
+                        <option value="1">Masculino</option>
+                        <option value="2">Femenino</option>
+                        <option value="3">Otro</option>
+                      </select>
+                      <br>
+                      <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label text-white">Dejanos tu opinion de la experiencia que tuviste con nuetra web.</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                      <br>
+                      <button type="button" class="btn btn-primary">Enviar</button>
     
-</body>
+    
+                </div>
+    
+            </div>
+
+
+        </main>
+
+              <!-- FOOTER-->
+      <footer>
+        <div class="row p-5 bg-dark text-white">
+
+            <div class="col-xs-12 col-md-6 col-lg-3">
+              <p class="h2 mb-4">Serendipia</p>
+              <p>Página creada por Agustin Ruiz</p>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3">
+              <p class="h3 mb-4">
+                Redes Sociales
+              </p>
+              <div>
+                <button class="btn-twitter">
+                  <a class="text-white text-decoration-none" href="https://twitter.com/?lang=es">Twitter</a>
+                </button>
+              </div>
+              <br>
+              <div>
+                <button class="btn-facebook">
+                  <a class="text-white text-decoration-none" href="https://www.facebook.com/">Facebook</a>
+                </button>
+              </div>
+              <br>
+              <div>
+                <button class="btn-instagram">
+                  <a class="text-white text-decoration-none" href="https://www.instagram.com/serendipia.unica/">Instagram</a>
+                </button>
+              </div>
+              
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3">
+              <p class="h3 mb-3">
+                Ayuda
+              </p>
+              <div class="mb-2">
+                <a class="text-secondary text-decoration-none" href="#">Comprar</a>
+              </div>
+              <div class="mb-2">
+                <a class="text-secondary text-decoration-none" href="#">¿Cómo comprar?</a>
+              </div>
+              <div class="mb-2">
+                <a class="text-secondary text-decoration-none" href="#">¿Como ingresar mis datos?</a>
+              </div>
+              <div class="mb-2">
+                <a class="text-secondary text-decoration-none" href="./pages/contactanos.html">¿Cómo contactanos?</a>
+              </div>
+  
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3">
+              <p class="h3 mb-3">
+                Servicios
+              </p>
+              <div>
+                <a class="text-secondary text-decoration-none mb-4" href="">Envios</a>
+              </div>
+              <br>
+              <div>
+                <a class="text-secondary text-decoration-none mb-4" href="">Soporte Tecnico</a>
+              </div>
+              <br>
+              <div>
+                <a class="text-secondary text-decoration-none mb-4" href="">Promociones</a>
+              </div>
+            </div>
+          </div>
+      </footer>
+      <!-- FIN FOOTER-->
+  
+
+
+
+
+
+
+
+
+
+
+    </section>
+
+
+
+   
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
 </html>

@@ -1,58 +1,59 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IniciarSesion</title>
-<link rel="stylesheet" href="../style/style.css">
-<!--BOOTSTRAP-->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <title>Serendipia Sesion</title>
 
-
-</head>
-<body class="body">
-  <header id="encabezado" class="container-fluid">
-    <div class="row">
-      <div class="col-3 col-md-12 col-sm-12 col-xs-12 col-lg-3">
-        <img class="img-thumbnail" src="../imagenes/Sseren.jpg" alt="logo">
-      </div>
-      <div class="col-9">
-        <nav class="navbar navbar-dark bg-dark">
-          <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="../index.html">
-                <img src="../imagenes/Sseren.jpg" alt="" width="30" height="24">
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../pages/nosotros.html">Nosotros</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../pages/galeria.html">Galeria</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../pages/contactanos.html">Contactanos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../pages/sesion.html">Iniciar sesion</a>
-                  </li>
-                </ul>
-              </div>
+    <link rel="stylesheet" href="../style/css/sty.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  
+  </head>
+  <body>
+   <section class="sesionPage">
+<!-- HEADER -->
+    <header class="row headerGaleria" id="rowUno">
+  
+      <div class="col">
+        <nav class="navbar navbar-expand-lg bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">Menu Inicio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/galeria.html">Galeria</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/contactanos.html">Contactanos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/sesion.html">Iniciar sesion</a>
+                </li>
+              </ul>
             </div>
-          </nav>
+          </div>
+          <img class="imgGaleria" src="../imagenes/logoNavBar.jpg" alt="serendipia">
         </nav>
-        <h1 class="serenTitulo">Serendipia</h1>
+        </div>
+      </header>
+      <!-- FIN HEADER -->
+
+      <!-- MAIN -->
+      <div class="row">
+        <div class="col">
+          <br>
+          <h1>¡Ingresa!</h1>
+        </div>
       </div>
-      </div>
-  </header>
-<!--MAIN-->
-      <main class="container">
+      
+      <main class="sesionUsuario">
         <div class="row">
             <div class="col">
                 <div class="sesion">
@@ -64,6 +65,8 @@
                         <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
                         <label for="floatingPassword">Contraseña</label>
                       </div>
+                      <br>
+                      <br>
                       <button type="button" class="btn btn-primary">Ingresar</button>
                       <button type="button" class="btn btn-primary">Registrarme</button>
                 </div>
@@ -74,37 +77,126 @@
         </div>
 
       </main>
-      <!--FIN MAIN-->
-    
-    
-    <!--FOOTER-->
-    <footer class="container-fluid">
-        <div class="row">
-          <div class="col">
-            <div class="divFooter">
-              <img src="../imagenes/social-icons.svg" alt="redesIndex">
-          </div>
-          <div >
-              <ul>
-                  <li class="listasIndex">
-                      <a class="linkIndex" href="https://www.instagram.com/serendipia.unica/">Instagram</a>
-                  </li>
-                  <li class="listasIndex">
-                      <a class="linkIndex" href="https://www.facebook.com/">Facebook</a>
-                  </li>
-                  <li class="listasIndex">
-                      <a class="linkIndex" href="https://twitter.com/?lang=es">Twiter</a>
-                  </li>
-              </ul>     
-          </div>
-          </div>
-      
-        </div>
-      </footer>
-    <!--FIN FOOTER-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-</body>
+      <!-- FIN MAIN -->
+
+      <!-- FOOTER-->
+      <footer>
+        <div class="row p-5 bg-dark text-white">
+
+            <div class="col-xs-12 col-md-6 col-lg-3">
+              <p class="h2 mb-4">Serendipia</p>
+              <p>Página creada por Agustin Ruiz</p>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3">
+              <p class="h3 mb-4">
+                Redes Sociales
+              </p>
+              <div>
+                <button class="btn-twitter">
+                  <a class="text-white text-decoration-none" href="https://twitter.com/?lang=es">Twitter</a>
+                </button>
+              </div>
+              <br>
+              <div>
+                <button class="btn-facebook">
+                  <a class="text-white text-decoration-none" href="https://www.facebook.com/">Facebook</a>
+                </button>
+              </div>
+              <br>
+              <div>
+                <button class="btn-instagram">
+                  <a class="text-white text-decoration-none" href="https://www.instagram.com/serendipia.unica/">Instagram</a>
+                </button>
+              </div>
+              
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3">
+              <p class="h3 mb-3">
+                Ayuda
+              </p>
+              <div class="mb-2">
+                <a class="text-secondary text-decoration-none" href="#">Comprar</a>
+              </div>
+              <div class="mb-2">
+                <a class="text-secondary text-decoration-none" href="#">¿Cómo comprar?</a>
+              </div>
+              <div class="mb-2">
+                <a class="text-secondary text-decoration-none" href="#">¿Como ingresar mis datos?</a>
+              </div>
+              <div class="mb-2">
+                <a class="text-secondary text-decoration-none" href="./pages/contactanos.html">¿Cómo contactanos?</a>
+              </div>
+  
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3">
+              <p class="h3 mb-3">
+                Servicios
+              </p>
+              <div>
+                <a class="text-secondary text-decoration-none mb-4" href="">Envios</a>
+              </div>
+              <br>
+              <div>
+                <a class="text-secondary text-decoration-none mb-4" href="">Soporte Tecnico</a>
+              </div>
+              <br>
+              <div>
+                <a class="text-secondary text-decoration-none mb-4" href="">Promociones</a>
+              </div>
+            </div>
+          </div>
+      </footer>
+      <!-- FIN FOOTER-->
+
+
+
+
+
+
+
+
+   </section>
+    
+    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+  
+-->
